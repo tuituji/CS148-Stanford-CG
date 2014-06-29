@@ -1,0 +1,5 @@
+The project uses the GLFW library rather than GLUT because it simplifies loading textures and a few other display tasks.  For this reason, a few things might look superficially different, although program flow is approximately the same as usual.
+
+We have included a precompiled .so file for GLFW in the base directory.  So, to compile and run on Myth requires simply typing "make" to compile and then "./hw5" to run (it will output instructions on which command line arguments it wants).
+
+If you wish to compile/run on your own machine, you will need to install GLFW first and then change the Makefile slightly to indicate where you put it.
